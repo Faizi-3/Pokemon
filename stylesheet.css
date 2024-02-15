@@ -1,5 +1,7 @@
 body {
     margin: 0;
+    background: #fff url(https://assets.pokemon.com/static2/_ui/img/chrome/container_bg.png);
+    color: #fff;
 }
 .header1 {
 
@@ -51,4 +53,904 @@ body {
 
 .pokemonforums {
     margin: 6px 0px 6px 7px;
+}
+
+.alliconsh2 {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    color: #464646;
+    /* padding-top: 20px; */
+    /* background-color:#1fe8c3; */
+    height: 106px;
+}
+
+.iconsh2one, .iconsh2two, .iconsh2three, .iconsh2four, .iconsh2five, .iconsh2six, .iconsh2seven {
+    text-align: center;
+    color: #464646;
+    /* padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px; */
+    border-bottom: 7px solid;
+    border-left: none;
+    height: 70px;
+    width: 100px;
+}
+
+i {
+    font-size: 25px;
+    color: #898989;
+}
+
+/* i:hover {
+    color: #fff;
+} */
+
+
+                /* Header#02 Icons styling */
+
+.header2 {
+    width: 100%;
+    background: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.iconsh2one {
+    position: absolute;
+    left: 313px;
+    padding-top: 15px !important;
+    padding: 14px;
+    background-color: #919191;
+    color: #fff;
+    border-bottom-color: #919191;
+    border-radius: 0 0 0 8px;
+}
+
+.iconsh2two {
+    position: absolute;
+    left: 442px;
+    padding: 14px;
+    border-bottom-color: #e3350d;
+}
+
+.iconsh2two:hover {
+    color: #fff;
+    background-color: #e3350d;
+}
+
+.iconsh2three {
+    position: absolute;
+    left: 571px;
+    padding: 14px;
+    border-bottom-color: #ee6b2f;
+}
+
+.iconsh2three:hover {
+    color: #fff;
+    background-color: #ee6b2f;
+}
+
+.iconsh2four {
+    position: absolute;
+    left: 700px;
+    padding: 14px;
+    border-bottom-color: #e6bc2f;
+}
+
+.iconsh2four:hover {
+    color: #fff;
+    background-color: #e6bc2f;
+}
+
+.iconsh2five {
+    position: absolute;
+    left: 829px;
+    padding: 14px;
+    border-bottom-color: #4dad5b;
+}
+
+.iconsh2five:hover {
+    color: #fff;
+    background-color: #4dad5b;
+}
+
+.iconsh2six {
+    position: absolute;
+    left: 958px;
+    padding: 14px;
+    border-bottom-color: #30a7d7;
+}
+
+.iconsh2six:hover {
+    color: #fff;
+    background-color: #30a7d7;
+}
+
+.iconsh2seven {
+    position: absolute;
+    left: 1087px;
+    padding: 14px;
+    border-bottom-color: #1b53ba;
+    border-radius: 0 0 8px 0;
+}
+
+.iconsh2seven:hover {
+    color: #fff;
+    background-color: #1b53ba;
+}
+
+
+            /* Cards Table#01 */
+
+.tablecards {
+    position: absolute;
+    left: 322px;
+    padding-top: 40px;
+    border-radius: 5px 5px 0 0;
+}
+
+.cardone {
+    width: 578px;
+    height: 327px;
+}
+
+.cardone > img {
+    width: 578px;
+    height: 327px;
+    border-radius: 5px 5px 0 0;
+}
+
+.cardonep {
+    background-color: #c7aa79;
+    margin-top: -5px;
+    border-radius: 0 0 5px 5px;
+}
+
+.cardonepr > span {
+    color: #fff;
+    font-size: 137.5%;
+}
+
+.cardonepr > p {
+    color: #524022;
+}
+
+.cardonepr > p >img {
+    position: absolute;
+    left: 409px;
+    bottom: -160px;
+}
+
+.cardonepr {
+    padding: 20px;
+    padding-left: 30px !important;
+}
+
+.cardtwo {
+    width: 280px;
+    height: 160px;
+    position: absolute;
+    right: -295px;
+    top: 41px;
+}
+
+.cardtwo > img {
+    width: 280px;
+    height: 160px;
+    border-radius: 5px 5px 0 0;
+}
+
+.cardtwop {
+    background-color: #e6bc2f;
+    margin-top: -5px;
+    border-radius: 0 0 5px 5px;
+}
+
+.cardtwopr {
+    padding: 20px;
+    padding-left: 30px !important;
+    color: white;
+    font-size: 149.5%;
+}
+
+.cardthree {
+    width: 280px;
+    height: 160px;
+    position: absolute;
+    right: -295px;
+    top: 367px;
+}
+
+.cardthree > img {
+    width: 280px;
+    height: 160px;
+    border-radius: 5px 5px 0 0;
+}
+
+.cardthreep {
+    background-color: #1b53ba;
+    margin-top: -5px;
+    border-radius: 0 0 5px 5px;
+}
+
+.cardthreepr {
+    padding: 20px;
+    padding-left: 30px !important;
+    color: white;
+    font-size: 140.5%;
+
+}
+
+.cardfour {
+    width: 280px;
+    height: 160px;
+    position: absolute;
+    /* right: -295px; */
+    top: 539px;
+}
+
+.cardfour > img {
+    width: 280px;
+    height: 160px;
+    border-radius: 5px 5px 0 0;
+}
+
+.cardfourp {
+    background-color: #ee6b2f;
+    margin-top: -5px;
+    border-radius: 0 0 5px 5px;
+}
+
+.cardfourpr {
+    padding: 20px;
+    padding-left: 30px !important;
+    color: white;
+    font-size: 140.5%;
+}
+
+.cardfive {
+    width: 280px;
+    height: 160px;
+    position: absolute;
+    right: 1px;
+    top: 539px;
+}
+
+.cardfive > img {
+    width: 280px;
+    height: 160px;
+    border-radius: 5px 5px 0 0;
+}
+
+.cardfivep {
+    background-color: #30a7d7;
+    margin-top: -5px;
+    border-radius: 0 0 5px 5px;
+}
+
+.cardfivepr {
+    padding: 20px;
+    padding-left: 30px !important;
+    color: white;
+    font-size: 140.5%;
+}
+
+.cardsix {
+    width: 280px;
+    height: 160px;
+    position: absolute;
+    right: -295px;
+    top: 630px;
+}
+
+.cardsix > img {
+    width: 115px;
+    height: 160px;
+    border-radius: 5px 0 0 5px;
+}
+
+.cardsixp {
+    background-color: #30a7d7;
+    border-radius: 0 5px 5px 0;
+    position: absolute;
+    left: 115px;
+    top: 0px;
+    height: 160px;
+    width: 165px;
+}
+
+.cardsixpr {
+    padding: 20px;
+    color: white;
+    font-size: 140.5%;
+}
+
+.sidebarl {
+    position: fixed;
+    left: 0;
+    top: 23%;
+    z-index: 1;
+    background-color: #000;
+    opacity: 0.8;
+    height: 900px;
+    width: 111px;
+}
+
+.sidebarr {
+    position: fixed;
+    top: 23%;
+    right: 0;
+    z-index: 1;
+    background-color: #000;
+    opacity: 0.8;
+    height: 900px;
+    width: 111px;
+    overflow-x: hidden;
+}
+
+.singletable {
+    position: absolute;
+    top: 1000px;
+    
+    left: 322px;
+}
+
+.singletableh {
+    background-color: #000;
+    color: #919191;
+    border-radius: 5px 5px 0 0;
+    font-size: 125%;
+    padding: 15px;
+    padding-right: 35px !important;
+}
+
+.singletablep {
+    background-color: #fff;
+}
+
+.onecartoon {
+    position: absolute;
+    top: 1050px;
+    left: 100px;
+    background-color: #616161;
+    opacity: 1px;
+    border-right: 3px solid #232323;
+    border-top: 3px solid #232323;
+}
+
+.onecartoon > img {
+    width: 250px;
+    height: 250px;
+}
+
+.onecartoon > p {
+    color: #fff;
+    font-size: 25px;
+    text-align: left;
+    padding-left: 20px;
+    background-color: #313131;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    margin: 0;
+}
+
+.twocartoon {
+    position: absolute;
+    top: 1050px;
+    left: 350px;
+    background-color: #616161;
+    border-top: 3px solid #232323;
+    border-left: 3px solid #232323;
+}
+
+.twocartoon > img {
+    width: 250px;
+    height: 250px;
+}
+
+.twocartoon > p {
+    color: #fff;
+    font-size: 25px;
+    text-align: left;
+    padding-left: 20px;
+    background-color: #313131;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    margin: 0;
+}
+
+.threecartoon {
+    position: absolute;
+    top: 1050px;
+    left: 602px;
+    background-color: #313131;
+    opacity: 1px;
+    border-left: 3px solid #232323;
+    border-top: 3px solid #232323;
+    width: 367px;
+    height: 427px;
+}
+
+.threecartoon > img {
+    width: 340px;
+    height: 360px;
+    position: absolute;
+    top: -60px;
+    left: 14px;
+}
+
+.threecartoon > p {
+    color: #fff;
+    font-size: 25px;
+    text-align: left;
+    width: 350px;
+    position: absolute;
+    top: 310px;
+    left: -2px;
+    padding-left: 20px;
+    background-color: #232323;
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+.pr {
+    font-size: 18px;
+}
+
+.number {
+    float: right;
+    padding-right: 25px;
+}
+
+.fight {
+    display: inline;
+    background-color: #d56723;
+    padding: 3px;
+    border-radius: 4px;
+}
+
+.fivecartoon {
+    position: absolute;
+    top: 1050px;
+    left: 1223px;
+    background-color: #616161;
+    border-left: 3px solid #232323;
+    border-top: 3px solid #232323;
+}
+
+.fivecartoon > img {
+    width: 250px;
+    height: 250px;
+}
+
+.fivecartoon > p {
+    color: #fff;
+    font-size: 25px;
+    text-align: left;
+    padding-left: 20px;
+    background-color: #313131;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    margin: 0;
+}
+
+.fourcartoon {
+    position: absolute;
+    top: 1050px;
+    left: 971px;
+    background-color: #616161;
+    border-left: 3px solid #232323;
+    border-top: 3px solid #232323;
+}
+
+.fourcartoon > img {
+    width: 250px;
+    height: 250px;
+}
+
+.fourcartoon > p {
+    color: #fff;
+    font-size: 25px;
+    text-align: left;
+    padding-left: 20px;
+    background-color: #313131;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    margin: 0;
+}
+
+#space {
+    padding-top: 20px;
+}
+
+#opc {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    top: 0;
+    color: rgb(0,0,0, 0.5);
+    font-size: 95px;
+    font-weight: bolder;
+    text-align: center;
+    padding-left: 0 !important;
+    background-color: rgb(0,0,0, 0.1)
+}
+
+.btn {
+    position: absolute;
+    top: 1550px;
+    left: 1000px;
+}
+
+.btn > button {
+    background-color: #313131;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 105%;
+    height: 50px;
+    width: 220px;
+}
+
+
+
+
+
+.tablecards01 {
+    position: absolute;
+    left: 322px;
+    top: 1620px;
+    padding-top: 40px;
+    border-radius: 5px 5px 0 0;
+}
+
+.cardone-one {
+    width: 280px;
+    height: 160px;
+    position: absolute;
+    right: -295px;
+    top: 41px;
+}
+
+.cardone-one > img {
+    width: 280px;
+    height: 160px;
+    border-radius: 5px 5px 0 0;
+}
+
+.cardone-p {
+    background-color: #1b53ba;
+    margin-top: -5px;
+    border-radius: 0 0 5px 5px;
+}
+
+.cardone-pr {
+    padding: 20px;
+    padding-left: 30px !important;
+    color: white;
+    font-size: 149.5%;
+}
+
+.cardone-pr > p {
+    color: #30a7d7;
+    font-size: 16px;
+}
+
+
+
+.cardtwo-one {
+    width: 290px;
+    height: 160px;
+    position: absolute;
+    right: -595px;
+    top: -20px;
+}
+
+.cardtwo-one > img {
+    width: 290px;
+    height: 160px;
+    border-radius: 5px 5px 0 0;
+}
+
+.cardtwo-p {
+    background-color: #313131;
+    margin-top: -5px;
+    border-radius: 0 0 5px 5px;
+}
+
+.cardtwo-pr {
+    padding: 20px;
+    padding-left: 30px !important;
+    color: white;
+    font-size: 149.5%;
+}
+
+.cardtwo-pr > p {
+    color: #919191;
+    font-size: 16px;
+}
+
+
+
+.cardthree-one {
+    width: 280px;
+    height: 140px;
+    position: absolute;
+    right: -887px;
+    top: 10px;
+}
+
+.cardthree-one > img {
+    width: 280px;
+    height: 160px;
+    border-radius: 5px 5px 0 0;
+}
+
+.cardthree-p {
+    background-color: #30a7d7;
+    margin-top: -5px;
+    border-radius: 0 0 5px 5px;
+}
+
+.cardthree-pr {
+    padding: 20px;
+    padding-left: 30px !important;
+    color: white;
+    padding-bottom: 6px !important;
+    font-size: 149.5%;
+}
+
+.cardthree-pr > p {
+    color: #0a2631;
+    font-size: 16px;
+}
+
+
+.cardfour-one {
+    width: 280px;
+    height: 160px;
+    position: absolute;
+    right: -295px;
+    top: 466px;
+}
+
+.cardfour-one > img {
+    width: 280px;
+    height: 160px;
+    border-radius: 5px 5px 0 0;
+}
+
+.cardfour-p {
+    background-color: #ff90c4;
+    margin-top: -5px;
+    border-radius: 0 0 5px 5px;
+}
+
+.cardfour-pr {
+    padding: 20px;
+    padding-left: 30px !important;
+    color: white;
+    font-size: 149.5%;
+}
+
+.cardfour-pr > p {
+    color: #c3005b;
+    font-size: 16px;
+}
+
+.sbox {
+    background-color: yellow;
+    color: #919191;
+    position: absolute;
+    top: 396px;
+    width: 286px;
+    right: -593px;
+}
+
+.sbox > p {
+    font-size: 29px;
+    padding-left: 15px;
+}
+
+
+.cardfive-one {
+    width: 280px;
+    height: 160px;
+    position: absolute;
+    right: -589px;
+    top: 533px;
+}
+
+.cardfive-one > img {
+    width: 280px;
+    height: 160px;
+    border-radius: 5px 5px 0 0;
+}
+
+.cardfive-p {
+    background-color: #e3350d;
+    margin-top: -5px;
+    border-radius: 0 0 5px 5px;
+}
+
+.cardfive-pr {
+    padding: 20px;
+    padding-left: 30px !important;
+    color: white;
+    font-size: 149.5%;
+}
+
+.cardfive-pr > p {
+    color: #ccc;
+    font-size: 16px;
+}
+
+
+.cardsix-one {
+    width: 280px;
+    height: 160px;
+    position: absolute;
+    right: -887px;
+    top: 466px;
+}
+
+.cardsix-one > img {
+    width: 280px;
+    height: 160px;
+    border-radius: 5px 5px 0 0;
+}
+
+.cardsix-p {
+    background-color: #b38aea;
+    margin-top: -5px;
+    border-radius: 0 0 5px 5px;
+}
+
+.cardsix-pr {
+    padding: 20px;
+    padding-left: 30px !important;
+    color: white;
+    font-size: 149.5%;
+}
+
+.cardsix-pr > p {
+    color: #4b1a8e;
+    font-size: 16px;
+}
+
+
+.s1 {
+    width: 260px;
+    position: absolute;
+    right: -887px;
+    top: 870px;
+    background-color: #ee6b2f;
+    font-size: 22px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    border-radius: 5px 5px 0 0;
+}
+
+.s2 {
+    width: 260px;
+    position: absolute;
+    right: -887px;
+    top: 934px;
+    background-color: #30a7d7;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    font-size: 18px;
+    color: #000;
+    border-radius: 0 0 5px 5px;
+}
+
+.endingcont {
+    background-color: #000;
+    position: absolute;
+    top: 2700px;
+    z-index: 1;
+    width: 100%;
+    height: 675px
+}
+
+.signup {
+    margin-left: 350px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.signup > form > span {
+    font-size: 21.6px;
+    font-weight: bold;
+}
+
+.emailbox {
+    width: 410px;
+    height: 42px;
+    color: grey;
+    font-weight: bold;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.country {
+    width: 205px;
+    height: 42px;
+    color: grey;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.birthday {
+    width: 205px;
+    height: 39px;
+    color: grey;
+    font-weight: bold;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.signup > form > button {
+    margin-top: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    width: 10rem;
+    background: #888;
+    color: #fff;
+    font-weight: bold;
+    font-size: 100%;
+}
+
+.pointsthree {
+    font-size: 20px;
+    position: absolute;
+    left: 800px;
+    top: 130px;
+}
+
+.pokemoncompany > ul {
+    list-style-type: none;
+}
+
+.pokemoncompany > ul > li {
+    margin: 0 0 8px 8px;
+}
+
+.pokemoncompany {
+    position: absolute;
+    left: 310px;
+    padding: 0px;
+    font-size: 16px;
+}
+
+.linkss {
+    position: absolute;
+    left: 650px;
+    top: 420px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.linkss > div > i {
+    padding: 10px;
+    font-size: 30px;
+    background-color: #fff;
+}
+
+.linkss2 {
+    position: absolute;
+    left: 900px;
+}
+
+.linkss2 > ul > li {
+    list-style: none;
+    margin: 10px 0;
+    font-size: 11px;
 }
